@@ -43,6 +43,7 @@ open class ToolbarButton: NSButton {
 
     private func commonInit() {
         super.bezelStyle = .toolbar
+        super.setButtonType(.momentaryPushIn)
     }
 }
 #endif

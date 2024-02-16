@@ -41,6 +41,7 @@ open class PushButton: NSButton {
 
     private func commonInit() {
         super.bezelStyle = .push
+        super.setButtonType(.momentaryPushIn)
     }
 }
 #endif
